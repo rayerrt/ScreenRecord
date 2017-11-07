@@ -149,7 +149,9 @@ public class ScreenRecordManager {
         public void onStop() {
             Log.d(TAG, "onStop");
             stopRecord();
-            mMediaProjectionCallback.onStop();
+            if (mMediaProjectionCallback != null) {
+                mMediaProjectionCallback.onStop();
+            }
         }
     }
 }
