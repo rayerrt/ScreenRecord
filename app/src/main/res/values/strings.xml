@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ScreenRecord</string>
+    <string name="screen_sharing_toggle">Share</string>
+    <string name="record_status">Recording Status:</string>
+    <string name="record_start">Start</string>
+    <string name="str_screen_record">屏幕录制</string>
+    <string name="str_screen_recording">正在录制...</string>
+</resources>
